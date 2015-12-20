@@ -1,0 +1,46 @@
+{
+  "name": "react-webpack-es2015",
+  "version": "1.0.0",
+  "description": "A simple React start point with Webpack, Babel, ESLint, ES2015(ES6) & ES7",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "lint": "eslint src; exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohamad Jahani <m4m4lj@gmail.com> (https://github.com/mamal72)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamal72/react-webpack-es2015.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "boilerplate",
+    "es6",
+    "es7"
+  ],
+  "bugs": {
+    "url": "https://github.com/mamal72/react-webpack-es2015/issues"
+  },
+  "homepage": "https://github.com/mamal72/react-webpack-es2015#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.3.21",
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.1.1",
+    "eslint-plugin-react": "^3.11.3",
+    "html-webpack-plugin": "^1.7.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  }
+}
